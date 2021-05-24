@@ -1,4 +1,3 @@
-# best-practice-datetime-timezone
 ## Best practice to store DateTime based on TimeZone
 
 *Welcome to one of the hardest problems in non-computational programming - properly representing dates and times to end users.*
