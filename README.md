@@ -6,9 +6,15 @@ Realistically, timestamps should be stored in a fixed single representation rega
 
 Always, always, ALWAYS store in UTC and display in the user's preferred or explicitly specified timezone. If at all possible, make the user tell you what timezone they believe the timestamp to be in when they input it (e.g., have an explicit timezone field and pre-populate it with their preferred zone).
 
-Ross Patterson 
+Credits:
 
 * [Ross Patterson - Stack Exchange](https://softwareengineering.stackexchange.com/users/6390/ross-patterson)
 * [Ross Patterson - Linkedin](https://www.linkedin.com/in/rosspatterson)
 * [**Link Stack Exchange**](https://softwareengineering.stackexchange.com/questions/209421/best-practice-to-store-datetime-based-on-timezone)
+
+#### Getting Deeper
+
+* https://en.wikipedia.org/wiki/ISO_8601
+* https://en.wikipedia.org/wiki/Unix_time
+* https://www.moesif.com/blog/technical/timestamp/manage-datetime-timestamp-timezones-in-api/
 
